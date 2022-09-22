@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Página </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../_css/jovem_som.css" />
+        <script src="../caroça/carroça.js"></script>
+        <script>
+            function iconemenuon(){
+                document.getElementById("som").src="../_imagens/icone_ligado.png";
+            }
+
+            function iconemenuoff(){
+                document.getElementById("som").src="../_imagens/icone_mudo.png";
+            }
+
+        </script>
+
+    </head>
+        <body>
+            <div id="slider">
+                <img class="selected" src="../_imagens/533007.png">
+                <img src="../_imagens/727398.png" >
+                <img src="../_imagens/872823.png" >
+            </div>
+            
+            <header>
+                <img id="title" src="../_imagens/png_logo.png   ">
+                <h2>Sonorização de Eventos</h2>
+
+                <nav id="menu">
+                    <ul>
+                        <li>
+                            <a href="cadastrar.html">Cadastrar</a>
+                        </li>
+                        <li>
+                            <a href="login.html">Login</a>
+                        </li>
+                        <li>
+                            <a href="">Logout</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav id="menuoculto">
+
+                    <img src="../_imagens/icone_mudo.png" id="som" onmousemove="iconemenuon()" onmouseout="iconemenuoff()">
+
+                    <ul class="menu-lateral" onmousemove="iconemenuon()" onmouseout="iconemenuoff()">
+                        <li>
+                            <a href="">Página Inicial</a>
+                        </li>
+                        <li>
+                            <a href="">Budjet Maker</a>
+                        </li>
+                        <li>
+                            <a href="">Sobre nós</a>
+                        </li>
+                        <li>
+                            <a href="eventosRealizados.html">Um pouco de<br>nossos trabalhos</a>
+                        </li>
+                        <li>
+                            <a href="">Área para<br>o anunciante</a>
+                        </li>
+                    </ul>
+                    
+                </nav>
+             </header>
+             
+             <div id="anunciodireita"></div>
+             <div id="anuncioesquerda"></div>
+        </body>
+    </head>
+</html>

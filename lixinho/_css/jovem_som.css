@@ -1,0 +1,135 @@
+@charset "UTF_8";
+@font-face {
+    font-family: 'thehel';
+    src: url("../_fonts/THE\ HELMUNTE.otf");
+}
+
+body {
+    background-color: #ffffff;
+    background-image: url("../_imagens/fundo-maior.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;    
+}
+
+header{
+    margin: -10px;
+    width: 101.12%;
+    height: 145px;
+    background-color: rgba(1, 1, 1, 1);
+    padding-top: 10px;
+}
+
+header img#title{
+    position: absolute;
+	width: 400px;
+    left: 35%;
+}
+
+header h2{
+    color: #ffffff;
+    font-family: thehel;
+    text-align: center;
+    margin-top: 85px;
+}
+
+nav#menu{
+    position: relative;
+    display: block;  
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -12px;
+    right: 0px;
+}
+
+nav#menu li{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #202020;
+    border-bottom: 0px;
+    
+}
+
+nav#menu a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav#menu a:hover{
+    color: #202020;
+}
+
+nav#menuoculto{
+    position: absolute;
+    width: 250px;
+    
+}
+
+.menu-lateral {
+    display: none;
+    width: 150px;
+    padding: 0;
+    height: 226px;
+    margin-bottom: 0px;
+    margin-top: -50px;
+    margin-left: 50px;
+    list-style: none;
+    position: absolute;
+    border: 1px solid rgb(18, 202, 235);
+}
+
+.menu-lateral li{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.menu-lateral li:hover{
+    background-color: rgb(18, 202, 235);
+}
+
+.menu-lateral a:hover{
+    text-decoration: underline;
+}
+
+.menu-lateral a{
+    text-decoration: none;
+    color: #202020;
+}
+
+nav:hover .menu-lateral {
+    display: block;
+}
+
+img#som {
+    width: 40px;
+    height: 36px;
+    position: absolute;
+    margin-top: -50px;
+    left: 10px;
+}
+
+/******************************************************************************/
+
+div#anuncioesquerda{
+    width: 200px;
+    height: 600px;
+    margin-left: -8px;
+    margin-top: 10px;
+    border: 2px solid rgb(18, 202, 235);
+    background-color: #ffffff;
+}
+
+div#anunciodireita{
+    float: right;
+    width: 200px;
+    height: 600px;
+    margin-right: -8px;
+    margin-top: 10px;
+    border: 2px solid rgb(18, 202, 235);
+    background-color: #ffffff;
+}

@@ -1,0 +1,165 @@
+body {
+    background-image: url(../_imagens/fundo-maior.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;   
+}
+div#form
+{
+width: 1100px;
+height: 15px;
+margin: 100px auto 50px auto;
+background-color: rgba(0, 0, 0, 0.800);
+border-radius: 6px;
+text-align: left;
+color: #ffffff;
+box-shadow: 1px 1px 20px rgba(255, 253, 253, 0.404);
+font-size: 15px;
+padding-top: 480px;
+padding-bottom: 30px;
+margin-bottom: 50px;
+font-family: Times 'Times New Roman', Times, serif;
+background-image: url(EB.jpg);
+background-size: cover;
+
+}
+
+
+header{
+    margin: 0px;
+    width: 100vh;
+    height: 80px;
+    background-color: rgba(1, 1, 1, 1);
+    padding-top: 10px;
+}
+
+header img#title{
+    position: absolute;
+	width: 400px;
+    left: 35%;
+}
+
+header h2{
+    color: #ffffff;
+    font-family: thehel;
+    text-align: center;
+    margin-top: 45px;
+}
+
+nav#menu{
+    position: relative;
+    display: block;  
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 3px;
+    right: 4px;
+}
+
+nav#menu li{
+    display: inline-block;
+    padding: 2px;
+    border: 1px solid #202020;
+    border-bottom: 50px;
+    
+}
+
+nav#menu a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav#menu a:hover{
+    color: #202020;
+}
+
+nav#menuoculto{
+    position: absolute;
+    width: 250px;
+    
+}
+
+.menu-lateral {
+    display: none;
+    width: 150px;
+    padding: 0;
+    height: 226px;
+    margin-bottom: 0px;
+    margin-top: -50px;
+    margin-left: 50px;
+    list-style: none;
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.menu-lateral li{
+    background-color: rgba(0, 0, 0, 0.322);
+    padding: 10px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.menu-lateral li:hover{
+    background-color: rgb(18, 202, 235);
+}
+
+.menu-lateral a:hover{
+    text-decoration: underline;
+}
+
+.menu-lateral a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav:hover .menu-lateral {
+    display: block;
+}
+
+img#som {
+    width: 40px;
+    height: 36px;
+    position: absolute;
+    margin-top: -50px;
+    left: 10px;
+}
+body
+{
+    background-image: url(mesa.JPG);
+    background-size: cover;
+	
+}
+header{
+    background-color: rgba(0, 0, 3);
+	min-height: 60px;
+    position:fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+.textheader{
+    font-size: 50px; /*(tamanho da letra)*/
+    font-family: Georgia; /*(tipo da fonte)*/
+    color: red;/*(cor da fonte)*/
+    text-align: center;
+top:0;	/*(alinhamento de linha)*/
+}
+#ima{
+width: 800;
+height: 100%;
+margin-left: 200px;
+margin-right: 0px;
+margin-bottom: 50px;
+
+}
+#tamanhocar{
+    margin-top: 2cm;
+    width: 1000px;
+    height: 100% ;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br"></html>
+<head>
+    <head>
+        <title>Página Inicial</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="../_css/eventosRealizados.css" />
+       <!-- <style>
+        #slider {
+    margin-top: -40px;
+    width: 70%;
+    max-width: 900px;
+    height: 450px;
+    max-height: 650px;
+    left: 240px;
+    border-width: 3px;
+    border-color: #ffffff;
+    border-style: solid;
+    position: relative;
+}
+
+#slider img{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 800ms;
+}
+
+#slider img.selected { 
+    opacity: 1;
+}
+       </style> -->
+    </head>
+        <body>
+          <div id="form">
+            <h1>Um pouco de nossos trabalhos</h1>
+          </div>
+            <header>
+               <a href="../php/telacomcadastro.php"><div id="centerimg"><img id="title" src="../_imagens/png_logo.png"></div></a>
+                <h2>Sonorização de Eventos</h2>
+            </header>  <br>
+          
+            <div id="slider">
+              <img class="selected" src="../_imagens/palcoe.jpg">
+              <img src="../_imagens/palco.jpg" >
+             
+          <script >
+            let time = 5000,
+    currentImageIndex = 0,
+    images = document
+                .querySelectorAll("#slider img")
+    max = images.length;
+
+function nextImage() {
+
+    images[currentImageIndex]
+        .classList.remove("selected")
+
+    currentImageIndex++
+
+    if(currentImageIndex >= max)
+        currentImageIndex = 0
+
+    images[currentImageIndex]
+        .classList.add("selected")
+}
+
+function start() {
+    setInterval(() => {
+        // troca de image
+        nextImage()
+    }, time)
+}
+
+window.addEventListener("load", start)
+
+          </script>
+ 
+        </body>
+    </head>
+</html>

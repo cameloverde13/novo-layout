@@ -1,0 +1,50 @@
+body {
+    background-image: url("../_imagens/Imagem1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+
+}
+
+div#form {
+    width: 50%;
+    margin: 100px auto 50px auto;
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 0px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 1px 1px 20px rgb(153, 153, 153);
+    font-size: 0px;
+    padding: 10px;
+    padding-bottom: 10px;
+    font-family: Georgia;
+
+
+}
+
+input {
+    font-family: Georgia;
+    color: rgb(255, 255, 255);
+    background-color: rgba(53, 53, 53, .4);
+    border-color: rgba(53, 53, 53, .4);
+    border-radius: 10px;
+
+}
+
+.text {
+    font-size: 15px;
+    /*(tamanho da letra)*/
+    font-family: Georgia;
+    /*(tipo da fonte)*/
+    color: #ffffff;
+    /*(cor da fonte)*/
+    text-align: center;
+    /*(alinhamento de linha)*/
+    /*text-shadow: 5px 12px;/*(sombra do texto)*/
+}
+
+#pass {
+    width: 150px;
+    padding-right: 20px;
+}
+

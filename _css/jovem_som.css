@@ -1,0 +1,205 @@
+@charset "UTF_8";
+@font-face {
+    font-family: 'thehel';
+    src: url("../_fonts/THE\ HELMUNTE.otf");
+}
+
+body {
+    background-color: #ffffff;
+    background-image: url("../_imagens/fundo-maior.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;   
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+div#form
+{
+width: 650px;
+height: 15px;
+margin: 100px auto 50px auto;
+background-color: rgba(0, 0, 0, 0.800);
+border-radius: 6px;
+text-align: center;
+color: #ffffff;
+box-shadow: 1px 1px 20px rgba(255, 253, 253, 0.404);
+font-size: 20px;
+padding-top: 20px;
+padding-bottom: 30px;
+margin-bottom: 50px;
+font-family: Georgia;
+
+}
+#form h1{
+    margin-top: -12px;
+}
+
+header{
+    margin: 0px;
+    width: 100vh;
+    height: 95px;
+    background-color: rgba(1, 1, 1, 1);
+    padding-top: 10px;
+}
+
+header img#title{
+    position: absolute;
+	width: 400px;
+    left: 35%;
+    
+}
+
+header h2{
+    color: #ffffff;
+    font-family: thehel;
+    text-align: center;
+    margin-top: 45px;
+}
+
+nav#menu{
+    position: relative;
+    display: block;  
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 3px;
+    right: 4px;
+}
+
+nav#menu li{
+    display: inline-block;
+    padding: 2px;
+    border: 1px solid #202020;
+    border-bottom: 50px;
+    
+}
+
+nav#menu a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav#menu a:hover{
+    color: #202020;
+}
+
+nav#menuoculto{
+    position: absolute;
+    width: 250px;
+    
+}
+
+.menu-lateral {
+    display: none;
+    width: 150px;
+    padding: 0;
+    height: 226px;
+    margin-bottom: 0px;
+    margin-top: -50px;
+    margin-left: 50px;
+    list-style: none;
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.menu-lateral li{
+    background-color: rgba(0, 0, 0, 0.322);
+    padding: 10px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.menu-lateral li:hover{
+    background-color: rgb(18, 202, 235);
+}
+
+.menu-lateral a:hover{
+    text-decoration: underline;
+}
+
+.menu-lateral a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav:hover .menu-lateral {
+    display: block;
+}
+
+img#som {
+    width: 40px;
+    height: 36px;
+    position: absolute;
+    margin-top: -50px;
+    left: 10px;
+}
+
+header{
+    background-color: rgba(0, 0, 3);
+	min-height: 60px;
+    position:fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+
+/******************************************************************************
+
+div#anuncioesquerda{
+    width: 200px;
+    height: 600px;
+    margin-left: -8px;
+    margin-top: 10px;
+    border: 2px solid rgb(18, 202, 235);
+    background-color: #ffffff;
+}
+
+div#anunciodireita{
+    float: right;
+    width: 200px;
+    height: 600px;
+    margin-right: -8px;
+    margin-top: 10px;
+    border: 2px solid rgb(18, 202, 235);
+    background-color: #ffffff;
+}
+body {
+    background-image: url(../_imagens/mesa.jpg);
+    background-size:cover ;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+*/
+#slider {
+    margin-top: 4cm;
+    width: 80%;
+    max-width: 1000px;
+    height: 600px;
+    max-height: 650px;
+
+    position: relative;
+}
+
+#slider img{
+    opacity: 0;
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: opacity 800ms;
+}
+
+#slider img.selected { 
+    opacity: 1;
+}

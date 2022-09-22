@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Página Inicial</title>
+        <link rel="stylesheet" href="_css/jovem_som.css" />
+
+        <script>
+            function iconemenuon(){
+                document.getElementById("som").src="_imagens/icone_ligado.png";
+            }
+
+            function iconemenuoff(){
+                document.getElementById("som").src="_imagens/icone_mudo.png";
+            }
+
+        </script>
+
+    </head>
+        <body>
+            <header>
+                <img id="title" src="_imagens/logo.png
+				">
+                <h2>Sonorização de Eventos</h2>
+
+                <nav id="menu">
+                    <ul>
+                        <li>
+                            <a href="cadastrar.html">Cadastrar</a>
+                        </li>
+                        <li>
+                            <a href="login.html">Login</a>
+                        </li>
+                        <li>
+                            <a href="">Logout</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav id="menuoculto">
+
+                    <img src="_imagens/icone_mudo.png" id="som" onmousemove="iconemenuon()" onmouseout="iconemenuoff()">
+
+                    <ul class="menu-lateral" onmousemove="iconemenuon()" onmouseout="iconemenuoff()">
+                        <li>
+                            <a href="">Página Inicial</a>
+                        </li>
+                        <li>
+                            <a href="">Budjet Maker</a>
+                        </li>
+                        <li>
+                            <a href="">Sobre nós</a>
+                        </li>
+                        <li>
+                            <a href="">Um pouco de<br>nossos trabalhos</a>
+                        </li>
+                        <li>
+                            <a href="">Área para<br>o anunciante</a>
+                        </li>
+                    </ul>
+                    
+                </nav>
+             </header>
+             
+             <div id="anunciodireita"></div>
+             <div id="anuncioesquerda"></div>
+        </body>
+    </head>
+</html>
